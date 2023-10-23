@@ -3,41 +3,81 @@
 <html lang="fr">
 
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Dereck Bélanger">
-<title>Dereck's Resume Website</title>
-<link rel="stylesheet" href="css/style.css">
+    <meta charset="utf-8">
+    <title>Portfolio Website</title>
+    <meta name="author" content="Dereck Bélanger">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
 </head>
 
-
 <body>
-<nav>
-    <ul>
-        <li>Home</li>
-        <li>About Me</li>
-        <li>My projects</li>
-        <li>Contact</li>
-    </ul>
 
-Dereck Bélanger
-</nav>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#accomplishments">Accomplishments</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="myprojects.html">My Work</a></li>
+        </ul>
+    </nav>
 
-<div>
-    <h1>Hi! My name is Dereck, I am a first year computer Science student</h1>
-    <p>I am located in Québec Canada and currently studying at Laval University</p>
-</div>
+    <header id="top">
+        <h1>Dereck Bélanger</h1>
+        <h2>Work smart, not hard</h2>
+    </header>
 
-<div>
-    <img src="images/ProfilResume.jpg" alt="Photo of the website owner">
-</div>
+    <main>
+        <section id="aboutme">
+            <h2>About Me</h2>
+            <p>Hi! My name is Dereck Bélanger and I am a first year computer science student.
+                I am 20 years old and I study at Laval University in Québec Canada. I started coding after 
+                giving myself the challenge to complete Harvard's CS50 course and discovered a passion for
+                coding because of the endless possibilities and the creativity. What I've discovered since then,
+                is a way to test myself with the constant evolution of the tech world on top of the fun there is 
+                at creating stuff like web pages, apps and more
+            </p>
+        </section>
 
-<div>
-    <h2>"Work smart, not hard" -Every programmer on earth</h2>
-    <button type="button" href="">
-        About Me
-    </button>
-</div>
+        <section id="accomplishments">
+            <h2>Accomplishments</h2>
+            <div id="CS50">
+                <h3>Introduction to Computer Science (CS50)</h3>
+                <h4>Harvard Certification</h4>
+                <p>This course was hard for me, I started with no knowldege of coding whatsoever but after
+                    many months of grinding and juggling between work, school and extracurricular work, I managed
+                    to get in depth skills in C, python, SQL and much more. Since CS50 is project oriented, I also 
+                    built myself a small portfolio while learning.
+                </p>
+            </div>
+            <div id="CS50S">
+                <h3>Introduction to Cyber Security (CS50S)</h3>
+                <h4>Harvard Certification</h4>
+                <p>In this course, I learnt the basics of cybersecurity. How to secure data, hashing, salts
+                industry standards regarding levels of security and more. This has helped me be more professionnal
+                and safe in my practices when building software.
+                </p>
+            </div>
+        </section>
+    </main>
 
+    <footer id="contact">
+        <ul>
+            <li><span class="fa-brands fa-square-facebook"></span></li>
+            <li><span class="fa-brands fa-instagram"></span></li>
+            <li><span class="fa-brands fa-twitter"></span></li>
+            <li>205 Monseigneur-Bourget St, Lévis, QC G6V 6Z9</li>
+        </ul>
+    </footer>
 
+    <div id="fleche"><a href=#top>
+            <span class="fa-solid fa-up-long"></span>
+        </a>
+    </div>
+
+    <script src="https://kit.fontawesome.com/d6973d5988.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
