@@ -1,78 +1,58 @@
 /* 600PX- (MOBILE FIRST) */
-
 /* WEBSITE BEHAVIOR */
 * {
-    box-sizing: border-box;
     scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
-/* BACKROUND BODY */
-body {
-    background-color: #dad7cd;
-    color: #3b3c3a;
-}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+  }
 
-/* NAVIGATION BAR */
-nav li {
-    list-style-type: none;
-    display: inline-block;
-    padding-left: 2rem;
-    margin-top: 0.3rem;
-    margin-bottom: 0.3rem;
-    transition: transform 0.1s;
-}
+  .topnav #myLinks {
+    display: none;
+  }
 
-nav li:hover {
-    text-shadow: 2px 2px 3px #131c18;
-    transform: scale(1.4);
-}
-
-nav {
-    position: sticky;
-    top: 0;
-    text-align: center;
-    padding: 0.5rem 0rem 0.5rem 0rem;
-    background-color: #344e41;
-}
-
-a:link,
-a:visited {
-    background-color: #3a5a40;
-    color: white;
-    text-align: center;
-    padding: 14px 25px;
+  .topnav a {
+    color: rgb(219, 212, 212);
+    padding: 14px 16px;
     text-decoration: none;
-    border-radius: 3px;
-}
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: rgb(0, 0, 0);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
-/* HEADER (MAIN SECTION W/ NAME AND QUOTE) */
-h1 {
-    color: #588157;
-    font-family: 'Anton', sans-serif;
-    font-size: 5rem;
-}
+  .topnav a.icon {
+    background-color: black;
+  }
 
-h2 {
-    font-family: 'anton', sans-serif;
-}
+  .topnav a.icon:hover {
+    background-color: #252222
+  }
 
-header {
-    text-align: center;
-}
+  .topnav a:hover {
+    background-color: #675274;
+    color: rgb(255, 255, 255);
+  }
 
-
-/* FONT BODY (DIV SQUARES) */
-#aboutme {
-    background-color: #a3b18a;
-    padding: 2rem;
-    text-align: left;
-    width: 40%;
-    display: inline-block;
-    border-radius: 0.5rem;
-
-}
+  .active {
+    background-color: #5e486c;
+    color: rgb(255, 255, 255);
+  }
 
 
+  body {
+    background-color: #b56576;
+  }
 
 
 /* 600PX+ (TABLET) */
