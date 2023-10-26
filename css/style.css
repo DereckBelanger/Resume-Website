@@ -8,65 +8,66 @@
 .topnav {
     overflow: hidden;
     background-color: #333;
-    position: relative;
-  }
+    position: sticky;
+    top: 0.3rem;
+}
 
-  .topnav #myLinks {
+.topnav #myLinks {
     display: none;
-  }
+}
 
-  .topnav a {
+.topnav a {
     color: rgb(219, 212, 212);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
-  }
-  
-  .topnav a.icon {
+}
+
+.topnav a.icon {
     background: rgb(0, 0, 0);
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-  }
+}
 
-  .topnav a.icon {
+.topnav a.icon {
     background-color: black;
-  }
+}
 
-  .topnav a.icon:hover {
+.topnav a.icon:hover {
     background-color: #252222
-  }
+}
 
-  .topnav a:hover {
+.topnav a:hover {
     background-color: #675274;
     color: rgb(255, 255, 255);
-  }
+}
 
-  .active {
+.active {
     background-color: #5e486c;
     color: rgb(255, 255, 255);
-  }
+}
 
 
-  body {
+body {
     background-color: #b56576;
-  }
+}
+
+#mainpresentation {
+    background-color: #e56b6f;
+    padding: 2rem;
+    border-radius: 1rem;
+}
 
 
 /* 600PX+ (TABLET) */
-@media  screen and (min-width:600px) {
-    
-}
+@media screen and (min-width:600px) {}
 
 
 /* 900PX+ (TABLET SIDEWAYS) */
-@media  screen and (min-width:900px) {
-    
-}
+@media screen and (min-width:900px) {}
 
 /* 1200PX+ (COMPUTERS) */
-@media  screen and (min-width:1200px) {
-    
-}
+@media screen and (min-width:1200px) {}
