@@ -1,3 +1,5 @@
+/* 600PX- (MOBILE FIRST) */
+
 /* WEBSITE BEHAVIOR */
 * {
     box-sizing: border-box;
@@ -68,4 +70,23 @@ header {
     display: inline-block;
     border-radius: 0.5rem;
 
+}
+
+
+
+
+/* 600PX+ (TABLET) */
+@media  screen and (min-width:600px) {
+    
+}
+
+
+/* 900PX+ (TABLET SIDEWAYS) */
+@media  screen and (min-width:900px) {
+    
+}
+
+/* 1200PX+ (COMPUTERS) */
+@media  screen and (min-width:1200px) {
+    
 }
