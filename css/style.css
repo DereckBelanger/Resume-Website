@@ -3,6 +3,8 @@
 * {
     scroll-behavior: smooth;
     box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    
 }
 
 /* CSS GRID */
@@ -13,12 +15,12 @@
       'menu main main main right right'
       'menu footer footer footer footer footer';
     grid-gap: 10px;
-    background-color: #2196F3;
+    background-color: #01161e;
     padding: 10px;
   }
   
-  .grid-container > header, .grid-container > nav, .grid-container > main, .grid-container > section, .grid-container > footer  {
-    background-color: rgba(255, 255, 255, 0.8);
+.grid-container > header, .grid-container > nav, .grid-container > main, .grid-container > section, .grid-container > footer  {
+    background-color: #124559;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -30,7 +32,8 @@
   .item4 { grid-area: right; }
   .item5 { grid-area: footer; }
 
-/* NAV BAR */
+
+  /* NAV BAR */
 .topnav {
     overflow: hidden;
     background-color: #333;
@@ -67,13 +70,62 @@
 }
 
 .topnav a:hover {
-    background-color: #675274;
+    background-color: #4c7787;
     color: rgb(255, 255, 255);
 }
 
 .active {
-    background-color: #5e486c;
+    background-color: #598392;
     color: rgb(255, 255, 255);
+    text-align: left;
+}
+
+/* MAIN */
+.item1 h2 {
+    text-align: left;
+    font-size: 1rem;
+    width: 60%;
+    display: inline-block;
+    position: relative;
+}
+
+.item3 p {
+     text-align: left;
+     font-size: 1.3rem;
+     margin: 1.5rem;
+     margin-bottom: 10rem;
+}
+
+.item3 h2 {
+    font-weight: 1000;
+}
+
+.item3 h3 {
+    font-size: 1.3rem;
+    font-weight: bolder
+}
+
+.item3 h4 {
+    font-size: 1rem;
+}
+
+.item3 p {
+    font-size: 1rem;
+}
+
+li {
+    list-style-type: none;
+    font-family: 'Anton', sans-serif;
+}
+
+#fleche {
+    display: inline-block;
+    padding: 0.5rem;
+    color: #01161e;
+    position: fixed;
+    top: 94%;
+    right: 3%;
+    font-size: 1.5rem;
 }
 
 /* 600PX+ (TABLET) */
