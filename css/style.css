@@ -15,12 +15,12 @@
       'menu main main main right right'
       'menu footer footer footer footer footer';
     grid-gap: 10px;
-    background-color: #01161e;
+    background-color: #232222;
     padding: 10px;
   }
   
 .grid-container > header, .grid-container > nav, .grid-container > main, .grid-container > section, .grid-container > footer  {
-    background-color: #124559;
+    background-color: #688ff4;
     text-align: center;
     padding: 20px 0;
     font-size: 30px;
@@ -46,7 +46,7 @@
 }
 
 .topnav a {
-    color: rgb(219, 212, 212);
+    color: rgb(237, 229, 229);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -70,12 +70,12 @@
 }
 
 .topnav a:hover {
-    background-color: #4c7787;
+    background-color: #f0a3c6;
     color: rgb(255, 255, 255);
 }
 
 .active {
-    background-color: #598392;
+    background-color: #f7adce;
     color: rgb(255, 255, 255);
     text-align: left;
 }
@@ -126,6 +126,22 @@ li {
     top: 94%;
     right: 3%;
     font-size: 1.5rem;
+}
+
+.grid-container > .item3 {
+    background-color: #08c7f7;
+}
+
+.grid-container > .item4 {
+    background-color: #03e9f8;
+}
+
+.grid-container > .item2 {
+    background-color: #c49bdf;
+}
+
+.grid-container > .item1 {
+    background-color: #ffde17;
 }
 
 /* 600PX+ (TABLET) */
