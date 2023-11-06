@@ -144,6 +144,28 @@ li {
     background-color: #ffde17;
 }
 
+.grid-container > .item5 {
+    font-size: 15px;
+}
+
+#card1 {
+    background-color: #ef99c3;
+}
+
+#card2 {
+    background-color: #f0a3c6;
+}
+
+#card3 {
+ background-color: #f7adce;
+}
+
+#card1, #card2, #card3 {
+    padding: 0.7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 3rem;
+}
 /* 600PX+ (TABLET) */
 @media screen and (min-width:600px) {}
 
